@@ -37,6 +37,7 @@ set_property(TARGET app PROPERTY CXX_STANDARD 11)
 target_link_libraries(app learn)
 
 add_executable(hr_array_dynamic hr_array_dynamic.cpp)
+add_executable(hr_getline hr_getline.cpp)
 add_executable(hr_sum_array hr_sum_array.cpp)
 add_executable(timer timer.cpp)
 
