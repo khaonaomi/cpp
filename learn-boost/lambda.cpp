@@ -1,4 +1,4 @@
-#include "boost/lambda/lambda.hpp"
+#include "lambda/lambda.hpp"
 #include <iostream>
 #include <iterator>
 #include <algorithm>

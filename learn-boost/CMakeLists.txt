@@ -39,7 +39,8 @@ set(CMAKE_BUILD_TYPE Debug)
 # add_executable(hr_sum_array hr_sum_array.cpp)
 add_executable(lambda lambda.cpp)
 
-#target_include_directories(app PRIVATE ${OPENGL_INCLUDE_DIR})
+include_directories(boost)
+
 #target_link_libraries(app ${OPENGL_gl_LIBRARY} -static)
 
 #target_link_libraries(app glfw3 -static)
