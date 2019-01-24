@@ -28,19 +28,19 @@ set(CMAKE_BUILD_TYPE Debug)
 #find_package(glfw3 3.2 REQUIRED)
 #find_package(OpenGL REQUIRED)
 
-add_library(learn STATIC learn.cpp)
+# add_library(learn STATIC learn.cpp)
 
-add_executable(app main.cpp)
+# add_executable(app main.cpp)
 
-set_property(TARGET app PROPERTY CXX_STANDARD 11)
+# set_property(TARGET app PROPERTY CXX_STANDARD 11)
 
-target_link_libraries(app learn)
+# target_link_libraries(app learn)
 
-add_executable(hr_array_dynamic hr_array_dynamic.cpp)
-add_executable(hr_sum_array hr_sum_array.cpp)
-add_executable(timer timer.cpp)
+# add_executable(hr_sum_array hr_sum_array.cpp)
+add_executable(lambda lambda.cpp)
 
-#target_include_directories(app PRIVATE ${OPENGL_INCLUDE_DIR})
+include_directories(boost)
+
 #target_link_libraries(app ${OPENGL_gl_LIBRARY} -static)
 
 #target_link_libraries(app glfw3 -static)
